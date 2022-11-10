@@ -1,4 +1,3 @@
-from turtle import update
 from flask import Blueprint, jsonify, request
 from flask_login import current_user, login_user, logout_user, login_required
 from app.models import db, Server, User, Channel, Message, ServerUser, Relationship

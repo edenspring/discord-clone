@@ -5,7 +5,6 @@ from app.models import User, Server
 
 
 class ServerUser(db.Model):
-
     __tablename__ = "server_users"
     if environment == "production":
         __table_args__ = {'schema': SCHEMA}
